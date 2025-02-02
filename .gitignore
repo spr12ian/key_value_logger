@@ -1,2 +1,20 @@
-# Google App Engine generated folder
-appengine-generated/
+# Google Apps Script folder
+*.log              # Log files
+node_modules/      # Dependencies
+.DS_Store          # macOS system files
+.thumbs            # Windows thumbnail files
+*.swp              # Swap files (Vim)
+*~                 # Backup files (various editors)
+*.bak              # Backup files
+*.tmp              # Temporary files
+.vscode            # VS Code settings (if used)
+.idea              # IntelliJ IDEA settings (if used)
+.env               # Environment variables (never commit these!)
+npm-debug.log*     # npm debug logs
+yarn-debug.log*    # Yarn debug logs
+package-lock.json  # For npm (lockfile is important, but can be regenerated)
+yarn.lock          # For Yarn (lockfile is important, but can be regenerated)
+
+# If you're using a bundler like Webpack or Parcel
+dist/              # Or build/, public/, etc. (your build output directory)
+.cache             # Cache directories

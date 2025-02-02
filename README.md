@@ -1,2 +1,2 @@
 # key_value_logger
-AppEngine repository
+Google Apps Script (GAS) repository
