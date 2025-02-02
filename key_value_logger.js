@@ -8,8 +8,3 @@ function logData(key, value) {
   sheet.appendRow([new Date(), key, value]);
   return 'Success';
 }
-
-function getSheetIdFromDrive() {
-  sheet="Key Value Log"
-  return "lsifvns"
-}

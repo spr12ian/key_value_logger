@@ -1,7 +1,7 @@
-const htmlContent = `
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Key Value Logger</title>
   <script>
     function submitData() {
@@ -13,7 +13,7 @@ const htmlContent = `
   </script>
 </head>
 <body>
-  <h3>Log Daily Stats</h3>
+  <h3>Key Value Logger</h3>
   <label for="key">Category:</label>
   <select id="key">
     <option value="Blood Glucose">Blood Glucose</option>
@@ -26,9 +26,3 @@ const htmlContent = `
   <button onclick="submitData()">Submit</button>
 </body>
 </html>
-`;
-
-function doGet() {
-  return HtmlService.createHtmlOutput(htmlContent)
-    .setTitle("Key Value Logger");
-}
