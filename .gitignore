@@ -1,4 +1,5 @@
 # Google Apps Script folder
+config.js
 *.log              # Log files
 node_modules/      # Dependencies
 .DS_Store          # macOS system files

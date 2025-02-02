@@ -7,7 +7,7 @@ const htmlContent = `
     function submitData() {
       var key = document.getElementById('label').value;
       var value = document.getElementById('value').value;
-      google.script.run.withSuccessHandler(alert).logData(label, value);
+      google.script.run.withSuccessHandler(alert).logData(key, value);
       document.getElementById('value').value = '';
     }
   </script>
