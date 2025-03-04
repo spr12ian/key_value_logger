@@ -3,8 +3,8 @@ function doGet() {
 }
 
 function logData(key, value) {
-  var KEY_VALUE_LOG_SHEET_ID=getSheetIdFromDrive()
-  var sheet = SpreadsheetApp.openById(KEY_VALUE_LOG_SHEET_ID).getActiveSheet();
+  const KEY_VALUE_LOG_SHEET_ID = getSheetIdFromDrive();
+  const sheet = SpreadsheetApp.openById(KEY_VALUE_LOG_SHEET_ID).getActiveSheet();
   sheet.appendRow([new Date(), key, value]);
   return 'Success';
 }
